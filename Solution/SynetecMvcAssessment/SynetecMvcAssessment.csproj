@@ -150,6 +150,8 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Calculator\BonusCalculator.cs" />
+    <Compile Include="Calculator\IBonusCalculator.cs" />
     <Compile Include="Controllers\BonusPoolController.cs" />
     <Compile Include="Data\BonusPoolModel.Context.cs">
       <AutoGen>True</AutoGen>
@@ -178,6 +180,8 @@
     <Compile Include="Models\BonusPoolCalculatorModel.cs" />
     <Compile Include="Models\BonusPoolCalculatorResultModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\HrRepository.cs" />
+    <Compile Include="Repository\IHrRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
